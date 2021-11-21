@@ -7,7 +7,7 @@ Kattis problems that have been solved by me.
 To compile and run C++ code, run the following in the appropriate folder:
 
 ```
-g++ -g -O2 -std=gnu++17 -static <list of files to compile> -o run
+g++ -g -O2 -std=gnu++17 -static {list of files to compile} -o run
 ./run
 ```
 
@@ -17,4 +17,5 @@ The solution to each problem in the table can be found in the corresponding fold
 
 | Problem | Language |
 |:---|:---|
-|[0-1 Sequences](https://open.kattis.com/problems/sequences)| C++|
+|[0-1 Sequences](https://open.kattis.com/problems/sequences)| C++ |
+|[10 Kinds of People](https://kth.kattis.com/problems/10kindsofpeople)| C++ |
