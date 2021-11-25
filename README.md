@@ -31,3 +31,4 @@ The solution to each problem in the table can be found in the corresponding fold
 | 2 |[10 Kinds of People](https://kth.kattis.com/problems/10kindsofpeople)| C++ | Done |
 | 3 |[2048](https://open.kattis.com/problems/2048)| C++ | Done |
 | 4 |[Anagram Counting](https://open.kattis.com/problems/anagramcounting)| Python | Done |
+| 5 |[3D Printed Statues](https://open.kattis.com/problems/3dprinter)| C++ | Done |
