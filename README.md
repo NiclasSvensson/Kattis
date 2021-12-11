@@ -32,3 +32,5 @@ The solution to each problem in the table can be found in the corresponding fold
 | 3 |[2048](https://open.kattis.com/problems/2048)| C++ | Done |
 | 4 |[Anagram Counting](https://open.kattis.com/problems/anagramcounting)| Python | Done |
 | 5 |[3D Printed Statues](https://open.kattis.com/problems/3dprinter)| C++ | Done |
+| 6 |[A+B Problem](https://open.kattis.com/problems/aplusb)| C++ | Too slow solution |
+| 5 |[Abandoned Animal](https://open.kattis.com/problems/abandonedanimal)| C++ | Done |
