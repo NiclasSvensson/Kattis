@@ -49,6 +49,7 @@ class board {
                 }
             }
         }
+        // Brute force...
         void search(vector<int16_t> original, int16_t i, int16_t t, int16_t p){
             //cout << "Points: " << p << endl;
             //cout << "Time: " << t << endl;

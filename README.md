@@ -29,6 +29,7 @@ The solution to each problem in the table can be found in the corresponding fold
 |:---|:---|:---|---:|
 |[A+B Problem](https://open.kattis.com/problems/aplusb)| C++ | Too slow solution | 8.4 |
 |[Amazing Race](https://open.kattis.com/problems/race)| C++ | Too slow solution | 5.5 |
+|[Zbrka](https://open.kattis.com/problems/zbrka)| C++ | Done | 5.5 |
 |[Abandoned Animal](https://open.kattis.com/problems/abandonedanimal)| C++ | Done | 5.4 |
 |[0-1 Sequences](https://open.kattis.com/problems/sequences)| C++ | Done | 5.3 |
 |[10 Kinds of People](https://kth.kattis.com/problems/10kindsofpeople)| C++ | Done | 5.2 |
