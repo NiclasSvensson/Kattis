@@ -28,8 +28,9 @@ The solution to each problem in the table can be found in the corresponding fold
 | Problem | Language | Status | Difficulty |
 |:---|:---|:---|---:|
 |[A+B Problem](https://open.kattis.com/problems/aplusb)| C++ | Too slow solution | 8.4 |
-|[The Magical 3](https://open.kattis.com/problems/aplusb)| C++ | Done | 5.9 |
+|[The Magical 3](https://open.kattis.com/problems/magical3)| C++ | Done | 5.9 |
 |[Amazing Race](https://open.kattis.com/problems/race)| C++ | Too slow solution | 5.5 |
+|[High Score](https://open.kattis.com/problems/highscore)| C++ | Done | 5.5 |
 |[Zbrka](https://open.kattis.com/problems/zbrka)| C++ | Done | 5.5 |
 |[Abandoned Animal](https://open.kattis.com/problems/abandonedanimal)| C++ | Done | 5.4 |
 |[0-1 Sequences](https://open.kattis.com/problems/sequences)| C++ | Done | 5.3 |
