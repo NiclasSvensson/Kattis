@@ -23,7 +23,6 @@ class circular_list{
         int32_t vertical_moves = 0;
         int32_t horizontal_moves = 1001;
         int32_t start = 0;
-        int32_t start_a = 0, end_a = 0, longest_a = 0;
         string name;
     public:
         circular_list(string Name){
