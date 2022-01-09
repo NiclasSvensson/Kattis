@@ -4,7 +4,6 @@ using namespace std;
 
 // Extended Euclidean Algorithm
 void extended_euclidean_algorithm(int64_t a, int64_t n, int64_t b, int64_t m){
-    if (m < 0) m = -m;
     int64_t K = n*m;
     int64_t old_r = n;
     int64_t r = m;
@@ -28,29 +27,11 @@ void extended_euclidean_algorithm(int64_t a, int64_t n, int64_t b, int64_t m){
         t = old_t - q*prov;
         old_t = prov;
     }
-    x = (((b*n)%K)*(old_s)%K) + (((a*m)%K)*(old_t)%K);
+    //x = (((b*n)%K)*(old_s)) + (((a*m)%K)*(old_t));
+    x = b + (a - b)*((m*old_t)%K);
     x %= K;
     while (x < 0) x += K;
-    //cout << old_s << " " << old_t << endl;
     cout << x << " " << K << endl;
-}
-
-int64_t inverse(int64_t a, int64_t n){
-    int64_t t = 0; int64_t nt = 1; int64_t r = n; int64_t nr = a;
-    int64_t q, prov;
-    while(nr != 0){
-        q = r / nr;
-
-        prov = nt;
-        nt = t - q*prov;
-        t = prov;
-
-        prov = nr;
-        nr = r - q*prov;
-        r = prov;
-    }
-    while (t < 0) t += n;
-    return t;
 }
 
 int main(){
@@ -59,10 +40,7 @@ int main(){
     for(int64_t i = 0; i < T; ++i){
         cin >> a >> n >> b >> m;
         K = n*m;
-        //extended_euclidean_algorithm(a, n, b, m);
-        x = ((((b*n)%K) * inverse(n,m)) % K) + ((((a*m)%K) * inverse(m,n)) % K);
-        x %= K;
-        cout << x << " " << K << endl;
+        extended_euclidean_algorithm(a, n, b, m);
     }
     return 0;
 }
