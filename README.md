@@ -37,6 +37,7 @@ The solution to each problem in the table can be found in the corresponding fold
 |[0-1 Sequences](https://open.kattis.com/problems/sequences)| C++ | Done | 5.3 |
 |[10 Kinds of People](https://kth.kattis.com/problems/10kindsofpeople)| C++ | Done | 5.2 |
 |[Ball Bearings](https://open.kattis.com/problems/ballbearings)| Python | Done | 4.1 |
+|[Factstone Benchmark](https://open.kattis.com/problems/factstone)| Python | Done | 4.1 |
 |[Anagram Counting](https://open.kattis.com/problems/anagramcounting)| Python | Done | 3.1 |
 |[2048](https://open.kattis.com/problems/2048)| C++ | Done | 2.8 |
 |[3D Printed Statues](https://open.kattis.com/problems/3dprinter)| C++ | Done | 2.2 |
